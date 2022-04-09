@@ -28,8 +28,7 @@ describe("index.js", () => {
   })
 
   describe("defines wrapAdjective function according to the specification", function() {
-    it("function exists", function() {
-      expect(wrapAdjective).to.exist
+    it("function exists", .to.exist
     })
     
     it("when initialized with '*' creates a function that, when called, wraps an adjective in a highlight", function() {
